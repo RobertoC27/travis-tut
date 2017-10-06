@@ -7,13 +7,13 @@ install:
 jobs:
   include:
     - stage: unit testing
-    script:
-      - python algo.py
+      script:
+        - python algo.py
     
     - stage: integ testing
-    script:
-      - python integ.py
+      script:
+        - python integ.py
     
     - stage: stress testing
-    script:
-      - python stress.py
+      script:
+        - python stress.py
